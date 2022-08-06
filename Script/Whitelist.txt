@@ -18,7 +18,7 @@ local Key = {
     [2] = "MOON-PUPX-PYVR-VUSU", -- ต้านะ
     [3] = "MOON-VTPY-WZVP-PWUR", -- Mr
     [4] = "MOON-VWRW-ZQTX-UVQY", --อาร์ม
-    [5] = "MOON-YTZZ-PXZP-PQTX", --ยังไม่มี
+    [5] = "MOON-YTZZ-PXZP-PQTX", --บีม
     [6] = "MOON-RTPQ-ZWTT-SXPQ", --ยังไม่มี
 }
 
