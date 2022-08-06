@@ -33,7 +33,7 @@ if Hwid[KeyNumber] == ClientId then
          Title = "Moon Hub",
          Text = "Loading !"
   })
-        loadstring(game:HttpGet(''))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Toonza555/gameplaceid/main/gameplaceId.txt'))()
     else
        game.Players.LocalPlayer:kick("\nInvalid Keys")
         else
