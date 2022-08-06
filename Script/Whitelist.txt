@@ -37,9 +37,9 @@ if Hwid[KeyNumber] == ClientId then
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Toonza555/gameplaceid/main/gameplaceId.txt'))()
     else
        game.Players.LocalPlayer:kick("\nInvalid Keys")
-        else
+        end
+else
           game.Players.LocalPlayer:kick("\nInvalid Client Id")
-            setclipboard(ClientId)
-            
+            setclipboard(ClientId)            
 end
 
