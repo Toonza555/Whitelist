@@ -1,0 +1,44 @@
+
+
+local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
+local Hwid = {
+    [1] = "e2657839-97cc-4b5c-9cda-d1f28c80e019", -- Me
+    ["e2657839-97cc-4b5c-9cda-d1f28c80e019"] = 1,
+    [2] = "",
+    [""] = 2,
+    
+}
+local Key = {
+    [1] = "MOON-PSYS-QZZS-YYTS", -- me
+    [2] = "MOON-VWTY-VVQR-WSXW", -- Genz
+    [3] = "MOON-UZYX-QSPV-WPPX", -- Beam
+    [4] = "MOON-VTPY-WZVP-PWUR", -- Mr
+    [5] = "MOON-SZUX-VSYT-PWQQ", -- somtam
+}
+
+local KeyNumber = Hwid[ClientId]
+if Hwid[KeyNumber] == ClientId then
+    if Key[KeyNumber] == _G.Key then
+       game:GetService("StarterGui"):SetCore("SendNotification", {
+         Title = "Moon Hub",
+         Text = "Check Whitelist !"
+  })
+  wait(.5)
+   game:GetService("StarterGui"):SetCore("SendNotification", {
+         Title = "Moon Hub",
+         Text = "Have Whitelist !"
+  })
+  wait(.7)
+   game:GetService("StarterGui"):SetCore("SendNotification", {
+         Title = "Moon Hub",
+         Text = "Loading !"
+  })
+        loadstring(game:HttpGet(''))()
+    else
+       game.Players.LocalPlayer:kick("\nInvalid Keys")
+        else
+          game.Players.LocalPlayer:kick("\nInvalid Client Id")
+            setclipboard(ClientId)
+            
+end
+
