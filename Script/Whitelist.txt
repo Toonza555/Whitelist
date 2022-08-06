@@ -2,8 +2,8 @@
 
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
-    [1] = "e2657839-97cc-4b5c-9cda-d1f28c80e019", -- Me
-    ["e2657839-97cc-4b5c-9cda-d1f28c80e019"] = 1,
+    [1] = "655503c5-461b-415b-bde5-7cbdfbf10997", -- Me
+    ["655503c5-461b-415b-bde5-7cbdfbf10997"] = 1,
     [2] = "a8533871-39c9-4be5-b52d-fdebaa443503", -- ต้านะ
     ["a8533871-39c9-4be5-b52d-fdebaa443503"] = 2,
     [3] = " ",
