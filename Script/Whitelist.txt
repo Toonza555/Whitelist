@@ -14,6 +14,7 @@ local Key = {
     [3] = "MOON-UZYX-QSPV-WPPX", -- Beam
     [4] = "MOON-VTPY-WZVP-PWUR", -- Mr
     [5] = "MOON-SZUX-VSYT-PWQQ", -- somtam
+    [6] = "MOON-PUPX-PYVR-VUSU", -- ต้านะ
 }
 
 local KeyNumber = Hwid[ClientId]
