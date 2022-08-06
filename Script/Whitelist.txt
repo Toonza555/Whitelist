@@ -11,11 +11,8 @@ local Hwid = {
 }
 local Key = {
     [1] = "MOON-PSYS-QZZS-YYTS", -- me
-    [2] = "MOON-VWTY-VVQR-WSXW", -- Genz
-    [3] = "MOON-UZYX-QSPV-WPPX", -- Beam
-    [4] = "MOON-VTPY-WZVP-PWUR", -- Mr
-    [5] = "MOON-SZUX-VSYT-PWQQ", -- somtam
-    [6] = "MOON-PUPX-PYVR-VUSU", -- ต้านะ
+    [2] = "MOON-PUPX-PYVR-VUSU", -- ต้านะ
+    [3] = "MOON-VTPY-WZVP-PWUR", -- Mr
 }
 
 local KeyNumber = Hwid[ClientId]
