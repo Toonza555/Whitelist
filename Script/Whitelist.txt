@@ -4,16 +4,22 @@ local Hwid = {
     ["655503c5-461b-415b-bde5-7cbdfbf10997"] = 1,
     [2] = "a8533871-39c9-4be5-b52d-fdebaa443503", -- ต้านะ
     ["a8533871-39c9-4be5-b52d-fdebaa443503"] = 2,
-    [3] = "32dbc6f2-0030-40d0-8db7-3a84ecd0b01c",
+    [3] = "32dbc6f2-0030-40d0-8db7-3a84ecd0b01c", -- Mr
     ["32dbc6f2-0030-40d0-8db7-3a84ecd0b01c"] = 3,
-    [4] = " ",
-    [" "] = 4,
+    [4] = "5ec7e5da-026b-4f38-af15-c7065253fdad", -- อาร์ม
+    ["5ec7e5da-026b-4f38-af15-c7065253fdad"] = 4,
+    [5] = " ", -- ยังไม่มี
+    [" "] = 5,
+    [6] = " ", -- ยังไม่มี
+    [" "] = 6
 }
 local Key = {
     [1] = "MOON-PSYS-QZZS-YYTS", -- me
     [2] = "MOON-PUPX-PYVR-VUSU", -- ต้านะ
     [3] = "MOON-VTPY-WZVP-PWUR", -- Mr
-    [4] = " ",
+    [4] = "MOON-VWRW-ZQTX-UVQY", --อาร์ม
+    [5] = "MOON-YTZZ-PXZP-PQTX", --ยังไม่มี
+    [6] = "MOON-RTPQ-ZWTT-SXPQ", --ยังไม่มี
 }
 
 local KeyNumber = Hwid[ClientId]
